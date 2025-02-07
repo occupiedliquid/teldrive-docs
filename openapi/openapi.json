@@ -6,22 +6,22 @@
   },
   "tags": [
     {
-      "name": "Auth"
+      "name": "認証関連"
     },
     {
-      "name": "Files"
+      "name": "ファイル管理"
     },
     {
-      "name": "Uploads"
+      "name": "アップロード"
     },
     {
-      "name": "Users"
+      "name": "ユーザー設定"
     },
     {
-      "name": "Shares"
+      "name": "共有機能"
     },
     {
-      "name": "Version"
+      "name": "バージョン"
     }
   ],
   "paths": {
@@ -54,7 +54,7 @@
           }
         },
         "tags": [
-          "Auth"
+          "認証関連"
         ],
         "requestBody": {
           "required": true,
@@ -97,7 +97,7 @@
           }
         },
         "tags": [
-          "Auth"
+          "認証関連"
         ],
         "security": [
           {
@@ -158,7 +158,7 @@
           }
         },
         "tags": [
-          "Auth"
+          "認証関連"
         ]
       }
     },
@@ -183,7 +183,7 @@
           }
         },
         "tags": [
-          "Auth"
+          "認証関連"
         ]
       }
     },
@@ -264,7 +264,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "security": [
           {
@@ -302,7 +302,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "requestBody": {
           "required": true,
@@ -355,7 +355,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "security": [
           {
@@ -388,7 +388,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "requestBody": {
           "required": true,
@@ -431,7 +431,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "requestBody": {
           "required": true,
@@ -474,7 +474,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "requestBody": {
           "required": true,
@@ -533,7 +533,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "security": [
           {
@@ -580,7 +580,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "requestBody": {
           "required": true,
@@ -639,7 +639,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "requestBody": {
           "required": true,
@@ -691,7 +691,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "requestBody": {
           "required": true,
@@ -743,7 +743,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "security": [
           {
@@ -790,7 +790,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "security": [
           {
@@ -830,7 +830,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "requestBody": {
           "required": true,
@@ -880,7 +880,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "requestBody": {
           "required": true,
@@ -1095,7 +1095,7 @@
           }
         },
         "tags": [
-          "Files"
+          "ファイル管理"
         ],
         "security": [
           {}
@@ -1139,7 +1139,7 @@
           }
         },
         "tags": [
-          "Shares"
+          "共有機能"
         ]
       }
     },
@@ -1195,7 +1195,7 @@
           }
         },
         "tags": [
-          "Shares"
+          "共有機能"
         ]
       }
     },
@@ -1374,7 +1374,7 @@
           }
         },
         "tags": [
-          "Shares"
+          "共有機能"
         ]
       }
     },
@@ -1408,7 +1408,7 @@
           }
         },
         "tags": [
-          "Shares"
+          "共有機能"
         ],
         "requestBody": {
           "required": true,
@@ -1463,7 +1463,7 @@
           }
         },
         "tags": [
-          "Uploads"
+          "アップロード"
         ],
         "security": [
           {
@@ -1536,7 +1536,7 @@
           }
         },
         "tags": [
-          "Uploads"
+          "アップロード"
         ],
         "requestBody": {
           "required": true,
@@ -1597,7 +1597,7 @@
           }
         },
         "tags": [
-          "Uploads"
+          "アップロード"
         ],
         "security": [
           {
@@ -1637,7 +1637,7 @@
           }
         },
         "tags": [
-          "Uploads"
+          "アップロード"
         ],
         "security": [
           {
@@ -1670,7 +1670,7 @@
           }
         },
         "tags": [
-          "Users"
+          "ユーザー設定"
         ],
         "requestBody": {
           "required": true,
@@ -1711,7 +1711,7 @@
           }
         },
         "tags": [
-          "Users"
+          "ユーザー設定"
         ],
         "security": [
           {
@@ -1754,7 +1754,7 @@
           }
         },
         "tags": [
-          "Users"
+          "ユーザー設定"
         ],
         "security": [
           {
@@ -1785,7 +1785,7 @@
           }
         },
         "tags": [
-          "Users"
+          "ユーザー設定"
         ],
         "requestBody": {
           "required": true,
@@ -1828,7 +1828,7 @@
           }
         },
         "tags": [
-          "Users"
+          "ユーザー設定"
         ],
         "security": [
           {
@@ -1868,7 +1868,7 @@
           }
         },
         "tags": [
-          "Users"
+          "ユーザー設定"
         ],
         "security": [
           {
@@ -1945,7 +1945,7 @@
           }
         },
         "tags": [
-          "Users"
+          "ユーザー設定"
         ],
         "security": [
           {
@@ -1988,7 +1988,7 @@
           }
         },
         "tags": [
-          "Users"
+          "ユーザー設定"
         ],
         "security": [
           {
@@ -2030,7 +2030,7 @@
           }
         },
         "tags": [
-          "Users"
+          "ユーザー設定"
         ],
         "security": [
           {
@@ -2070,7 +2070,7 @@
           }
         },
         "tags": [
-          "Version"
+          "バージョン"
         ]
       }
     }

@@ -3,12 +3,12 @@ info:
   title: Teldrive
   version: 0.0.0
 tags:
-  - name: Auth
-  - name: Files
-  - name: Uploads
-  - name: Users
-  - name: Shares
-  - name: Version
+  - name: 認証関連
+  - name: ファイル管理
+  - name: アップロード
+  - name: ユーザー設定
+  - name: 共有機能
+  - name: バージョン
 paths:
   /auth/login:
     post:
