@@ -1,65 +1,66 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  lang: "en-US",
+  lang: "ja-JP",
   title: "Teldrive",
-  description: "Teldrive is a powerful utility that enables you to organise your telegram files and much more",
+  description: "Teldriveは、Telegramファイルを整理するための強力なユーティリティです。",
   lastUpdated: true,
   ignoreDeadLinks: true,
   cleanUrls: true,
   sitemap: {
-    hostname: 'https://teldrive-docs.pages.dev'
+    hostname: 'https://teldrive-jp-docs.pages.dev'
   },
   themeConfig: {
     logo: '/images/logo.png',
     siteTitle: 'Teldrive',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/tgdrive/teldrive' },
+      { icon: 'github', link: 'https://github.com/occupiedliquid/teldrive' },
       { icon: 'discord', link: 'https://discord.gg/8QAeCvTK7G' },
     ],
     editLink: {
-      pattern: 'https://github.com/tgdrive/teldrive-docs/edit/main/:path',
-      text: 'Edit this page on GitHub',
+      pattern: 'https://github.com/occupiedliquid/teldrive-docs/edit/main/:path',
+      text: 'このページをGitHubで編集',
     },
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present Divyam'
+      message: 'MITライセンスのもとで配布',
+      copyright: 'Copyright © 2023-present Divyam and occupiedliquid'
     },
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'ホーム', link: '/' },
     ],
 
     sidebar: [
       {
-        text: 'Getting Started',
+        text: 'はじめる',
         collapsed: false,
         items: [
-          { text: 'Prerequisites', link: '/docs/getting-started/prerequisites.md' },
-          { text: 'Installation', link: '/docs/getting-started/installation.md' },
-          { text: 'Usage', link: '/docs/getting-started/usage.md' },
-          { text: 'Advanced Usage', link: '/docs/getting-started/advanced.md' },
+          { text: '前提条件', link: '/docs/getting-started/prerequisites.md' },
+          { text: 'インストール', link: '/docs/getting-started/installation.md' },
+          { text: '使用方法', link: '/docs/getting-started/usage.md' },
+          { text: '上級者向け', link: '/docs/getting-started/advanced.md' },
         ]
       },
       {
-        text: 'Guides',
+        text: 'ガイド',
         collapsed: false,
         items: [
-          { text: 'Deploy Teldrive with Caddy and Cloudflare', link: '/docs/guides/caddy-cloudflare.md' },
-          { text: 'Database Backup', link: '/docs/guides/db-backup.md' },
-          { text: 'Setup Teldrive with Rclone', link: '/docs/guides/rclone.md' },
-          { text: 'Setup Teldrive with Jellyfin', link: '/docs/guides/jellyfin.md' },
+          { text: 'CaddyとCloudflareを使ってデプロイ', link: '/docs/guides/caddy-cloudflare.md' },
+          { text: 'データベースのバックアップ', link: '/docs/guides/db-backup.md' },
+          { text: 'RcloneでTeldriveをセットアップ', link: '/docs/guides/rclone.md' },
+          { text: 'JellyfinでTeldriveをセットアップ', link: '/docs/guides/jellyfin.md' },
         ]
       },
       {
-        text: 'CLI Options',
+        text: 'CLIオプション',
         collapsed: false,
         items: [
-          { text: 'run', link: '/docs/cli/run.md' },
-          { text: 'check', link: '/docs/cli/check.md' },
+          { text: '実行', link: '/docs/cli/run.md' },
+          { text: 'チェック', link: '/docs/cli/check.md' },
         ]
       },
       {
-        text: "API Reference",
+        text: "API リファレンス",
         link: "/docs/api",
         rel:"noopener noreferrer",
         target:"_blank"
@@ -76,7 +77,7 @@ export default defineConfig({
       },
     ],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'twitter:domain', content: 'teldrive-docs.pages.dev' }],
+    ['meta', { property: 'twitter:domain', content: 'teldrive-jp-docs.pages.dev' }],
     [
       'meta',
       {
