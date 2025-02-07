@@ -1,51 +1,52 @@
 # Teldrive
 
-Teldrive is a powerful utility that enables you to organise your telegram files and much more.
+Teldriveは、Telegramファイルを整理するための強力なユーティリティです。
 
-## Features
+## 特徴
 
-### 🚀 Ultrafast & Lightweight
-Built with Go, TelDrive delivers exceptional performance with minimal resource usage:
-- Lightning-fast operations
-- Small binary footprint
-- Efficient memory usage
-- Cross-platform compatibility
+### 🚀 超高速＆軽量
+Goで構築されたTeldriveは、最小限のリソース使用で優れたパフォーマンスを提供します：
+- 雷のように速い操作
+- 小さなバイナリサイズ
+- 効率的なメモリ使用
+- クロスプラットフォーム対応
 
-### 🎨 Sleek Material You Design
-Modern and intuitive user interface:
-- Material You design
-- Dynamic color theming
-- Responsive layouts
-- Seamless dark/light mode
-- Clean and intuitive navigation
+### 🎨 スリークなマテリアルデザイン
+モダンで直感的なユーザーインターフェース：
+- マテリアルデザイン
+- ダイナミックなカラーテーマ
+- レスポンシブレイアウト
+- シームレスなダーク/ライトモード
+- クリーンで直感的なナビゲーション
 
-### 🔄 Rclone Integration
-Seamless integration with Rclone for enhanced functionality:
-- Mount as remote storage
-- Use familiar Rclone commands
-- Sync with other cloud storage
-- Automated backups
-- Cross-platform file management
+### 🔄 Rclone統合
+機能を向上させるためのRcloneとのシームレスな統合：
+- リモートストレージとしてマウント
+- お馴染みのRcloneコマンドを使用
+- 他のクラウドストレージと同期
+- 自動バックアップ
+- クロスプラットフォームのファイル管理
 
-### 🔐 Robust Encryption
-Protect Files with Robust Encryption:
-- Secure individual file chunks.
+### 🔐 強力な暗号化
+強力な暗号化でファイルを保護します：
+- 個々のファイルチャンクを安全に保護。
 
-![demo](/images/demo1.png)
+![デモ](/images/demo1.png)
 
 <details>
-<summary><b>More Images</b></summary>
+<summary><b>さらに画像を見る</b></summary>
 
-![demo2](/images/demo2.png)
-![demo3](/images/demo3.png)
-![demo5](/images/demo6.png)
-![demo8](/images/demo8.png)
-![demo7](/images/demo7.png)
-![demo4](/images/demo4.png)
+![デモ2](/images/demo2.png)
+![デモ3](/images/demo3.png)
+![デモ5](/images/demo6.png)
+![デモ8](/images/demo8.png)
+![デモ7](/images/demo7.png)
+![デモ4](/images/demo4.png)
 </details>
 
 <br>
 
-[UI Repo ](https://github.com/tgdrive/teldrive-ui)
+[UIリポジトリ](https://github.com/tgdrive/teldrive-ui)
+[日本語UIリポジトリ](https://github.com/occupiedliquid/teldrive-ui)
 
-[UI Library ](https://github.com/divyam234/tw-material)
+[UIライブラリ](https://github.com/divyam234/tw-material)
