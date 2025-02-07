@@ -3,29 +3,29 @@ layout: home
 
 hero:
   name: "Teldrive"
-  tagline: Teldrive is a powerful utility that enables you to organise your telegram files and much more.
+  tagline: Teldriveは、Telegramファイルを整理するための強力なユーティリティです
   actions:
     - theme: brand
-      text: Get Started
+      text: はじめる
       link: /docs/
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/tgdrive/teldrive
+      text: GitHubで見る
+      link: https://github.com/occupiedliquid/teldrive
   image:
     src: /images/logo.png
     alt: Teldrive
 
 features:
   - icon: 🚀
-    title: Ultrafast & Lightweight
-    details: Built with Go, TelDrive delivers exceptional performance with minimal resource usage.
+    title: 超高速＆軽量
+    details: Goで構築されたTelDriveは、最小限のリソース使用で優れたパフォーマンスを提供します。
   - icon: 🎨
-    title: Sleek Material You Design
-    details: Modern and intuitive user interface.
+    title: スリークなマテリアルデザイン
+    details: モダンで直感的なユーザーインターフェース。
   - icon: 🔄
-    title: Rclone Integration
-    details: Seamless integration with Rclone for enhanced functionality.
+    title: Rclone統合
+    details: 機能を向上させるためのRcloneとのシームレスな統合。
   - icon: 🔐
-    title: Robust Encryption
-    details: Protect Files with Robust Encryption.
+    title: 強力な暗号化
+    details: 強力な暗号化でファイルを保護します。
 ---

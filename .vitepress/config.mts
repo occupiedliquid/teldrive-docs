@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: "ja-JP",
   title: "Teldrive",
-  description: "Teldriveは、Telegramファイルを整理するための強力なユーティリティです。",
+  description: "Teldriveは、Telegramファイルを整理するための強力なユーティリティです",
   lastUpdated: true,
   ignoreDeadLinks: true,
   cleanUrls: true,
